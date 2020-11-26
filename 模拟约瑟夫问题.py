@@ -99,6 +99,7 @@ while len(list1)>1:
 # In[28]:
 
 
+%%writefile ysf.py
 def move(players,step):
      #移动step前的元素到列表末尾
     num = step - 1
